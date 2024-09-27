@@ -1,14 +1,86 @@
+# Node and Expo dependencies
 node_modules/
 .expo/
+.expo-shared/
+
+# Distribution directories
 dist/
+web-build/
+
+# Expo-generated files
+expo-env.d.ts
+
+# Debug and log files
 npm-debug.*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS
+.DS_Store
+
+# OS metadata files
+Thumbs.db
+desktop.ini
+
+# Android related files
+android/
+*.keystore
+*.jks
+
+# iOS related files
+ios/
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad
+*.xcodeproj
+Pods/
+*.xcscheme
+*.plist
+
+# Build directories and cache
+build/
+.babelrc
+.cache/
+.temp/
+
+# Certificate and Provisioning Profiles
 *.jks
 *.p8
 *.p12
 *.key
 *.mobileprovision
-*.orig.*
-web-build/
 
-# macOS
-.DS_Store
+# Editor related
+.vscode/
+.idea/
+*.swp
+*.sublime-project
+*.sublime-workspace
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.orig.*
+*.old
+*.rej
+
+# Lock files
+package-lock.json
+yarn.lock
+
+# React Native related
+*.tflite
+*.bin
+
+# Linux
+*~
+
+# Fastlane files (if using for deployment)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/**/*.log
